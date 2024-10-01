@@ -83,6 +83,23 @@ print()
 paz_sarasas = [10, 8, 9, 7, 10, 10]
 print(paz_sarasas.count(10))
 
+print()
+# 9 uzd.
+
+auto_marke = ['Audi', 'BMW', 'Toyota', "Reno", 'Mercedes']
+print(auto_marke)
+auto_marke.sort()
+print(auto_marke)
+auto_marke.reverse()
+print(auto_marke)
+
+print()
+# 10 uzd.
+pazymiai = [10, 7, 5, 8, 9, 4]
+print(pazymiai)
+pazymiai.sort()
+print(pazymiai[3:])
+
 
 
 
