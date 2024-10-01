@@ -100,6 +100,37 @@ print(pazymiai)
 pazymiai.sort()
 print(pazymiai[3:])
 
+print('---------------------')
+#  CIKLAI
+# 1 uzd
+for vardas in range(5):
+    print('Arina')
+print('---------------------')
+#  2 uzd.
+for i in range(0, 11):
+    print(i)
+print('---------------------')
+# 3 uzd.
+for i in range(0, 16, 2):
+    print(i)
+print('---------------------')
+# 4 uzd.
+for i in range(1, 21, 3):
+    print([i])
+print('---------------------')
+# 5 uzd.
+for i in range(1, 20):
+    if i % 4 == 0:
+        print(f'skaičius {i} dalinasi iš 4')
+print('---------------------')
+# 6 uzd.
+for i in range(1,15):
+    if i % 2 == 0:
+        print(f'{i} - lyginis')
+    else: print(f'{i} - nelyginis')
+print('---------------------')
+# 7 uzd.
+
 
 
 
