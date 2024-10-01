@@ -101,7 +101,7 @@ pazymiai.sort()
 print(pazymiai[3:])
 
 print('---------------------')
-#  CIKLAI
+#  CIKLAI 2024-10-01
 # 1 uzd
 for vardas in range(5):
     print('Arina')
@@ -130,6 +130,47 @@ for i in range(1,15):
     else: print(f'{i} - nelyginis')
 print('---------------------')
 # 7 uzd.
+pradzia = 1
+pabaiga = 5
+if pradzia < pabaiga:
+    for i in range(pradzia, pabaiga + 1):
+        print(i, i ** 2)
+else: print('Rėžiai netinkami')
+print('---------------------')
+# 8 uzd.
+pradzia, pabaiga = 1, 24
+if pradzia < pabaiga:
+    for i in range(pradzia, pabaiga + 1):
+        if i % 2 != 0 or i % 8 == 0:
+            print(f'skaičius {i} nelyginis arba dalinasi iš 8')
+else: print('Rėžiai netinkami')
+print('---------------------')
+#  9 uzd.
+# vardas = input('Įveskite savo vardą: ')
+# print('Vardo ilgis:', len(vardas),'- raidės')
+# for i in range(len(vardas)):
+#     print(f'Labas, {vardas}, {i}')
+print('---------------------')
+# 10 uzd.
+for elementas in [88, 65, 21, 26, 47]:
+    if elementas % 2 == 0:
+        print(f'{elementas} - lyginis')
+print('---------------------')
+# 11 uzd.
+start = input('Įveskite pradžią: ')
+end = input('Įveskite pabaigą: ')
+step = input('Įveskite žingsnį: ')
+
+# sk_rusis = input('Įveskite skaičiaus rūšį (lyginis/nelyginis): ')
+if start < end:
+    for i in range(start, end):
+        print(i)
+#         if i % 2 == 0 and sk_rusis == 'lyginis':
+#             print(f'skaičius {i} - lyginis')
+#         else: print(f'skaičius {i} - nelyginis')
+else: print('Netinkami rėžiai')
+
+# neveikia. KAžkas negerai su žingsnio įvedimu
 
 
 
