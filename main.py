@@ -53,8 +53,20 @@ print()
 
 # pavyko
 
-
-
-
 # 5 uzd
-list = [8, 5, 25, 69, 7, 10]
+# list = [8, 5, 25, 69, 7, 10]
+# print(list)
+# list.pop()
+# print(list)
+# pasalinimas = int (input('Įveskite kiekį: ') )
+# list.pop(pasalinimas)
+# print(list)
+
+# 6 uzd.
+list2 = ['labas', 'penki', 'vakaras', 'laikrodis']
+if len(list2) > 5:
+    list2.clear()
+    print(list2)
+else: print(list2)
+
+# OK
