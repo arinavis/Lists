@@ -69,4 +69,20 @@ if len(list2) > 5:
     print(list2)
 else: print(list2)
 
+print()
 # OK
+# 7 uzd.
+
+# sarasas = ['katė', 'šuo', 'paukštis', 'arklys', 'panda']
+# print(sarasas)
+# paieska = input('Įveskite ieškomą žodį: ')
+# print(paieska in sarasas)
+# print(sarasas.index(paieska))
+
+# 8 uzd.
+paz_sarasas = [10, 8, 9, 7, 10, 10]
+print(paz_sarasas.count(10))
+
+
+
+
