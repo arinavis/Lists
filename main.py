@@ -192,6 +192,41 @@ for e in range(1, eglute + 1):
 print('---------------------')
 
 # 13 uzd
+# zodis = input('Įveskite žodį: ')
+# skaicius = int( input('Įveskire skaičių: ') )
+#
+# for i in zodis:
+#     print(i * skaicius)
+
+print('---------------------')
+#  14 uzd.
+sk1 = 2
+sk2 = 3
+sandauga = 0
+for i in range(sk2):
+    sandauga += sk1
+print(sandauga)
+#  neaišku
+
+print('---------------------')
+# 15 uzd
+
+suma100 = 0
+for i in range(1, 100):
+    suma100 += i
+print(suma100)
+print('---------------------')
+# 16 uzd.
+lygSuma = 0
+for i in range(20, 50):
+    if i % 2 == 0:
+        lygSuma += i
+print(f'Lyginių suma: {lygSuma}')
+
+lygSuma1 = 0
+for i in range(20, 50, 2):
+        lygSuma1 += i
+print(f'Lyginių suma: {lygSuma1}')
 
 
 
