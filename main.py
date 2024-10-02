@@ -184,6 +184,17 @@ print('---------------------')
 
 # galima su elif
 
+# 12 uzd.
+
+eglute = 5
+for e in range(1, eglute + 1):
+    print('*' * e)
+print('---------------------')
+
+# 13 uzd
+
+
+
 
 
 
