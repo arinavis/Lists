@@ -136,6 +136,7 @@ if pradzia < pabaiga:
     for i in range(pradzia, pabaiga + 1):
         print(i, i ** 2)
 else: print('Rėžiai netinkami')
+# dauginti i iš savęs, o ne kelti kvadratu
 print('---------------------')
 # 8 uzd.
 pradzia, pabaiga = 1, 24
@@ -157,20 +158,31 @@ for elementas in [88, 65, 21, 26, 47]:
         print(f'{elementas} - lyginis')
 print('---------------------')
 # 11 uzd.
-start = input('Įveskite pradžią: ')
-end = input('Įveskite pabaigą: ')
-step = input('Įveskite žingsnį: ')
+# - Leiskite vartotojui nurodyti rėžių pradžią, pabaigą, žingsnį.
+# - Taip pat, kokius skaičius jis nori matyti (lyginius ar nelyginius).
+# - Patikrinkite ar rėžiai tinkami,
+# - jei taip vykdykite ciklą, kuris eitų per nurodytą rėžių, darant atitinkamą žingsnį.
+# - Išveskite tik tokius skaičius kokius vartotojas pasirinko (lyginius arba nelyginius).
 
-# sk_rusis = input('Įveskite skaičiaus rūšį (lyginis/nelyginis): ')
-if start < end:
-    for i in range(start, end):
-        print(i)
-#         if i % 2 == 0 and sk_rusis == 'lyginis':
-#             print(f'skaičius {i} - lyginis')
-#         else: print(f'skaičius {i} - nelyginis')
-else: print('Netinkami rėžiai')
+# start = int (input('Įveskite pradžią: ') )
+# end = int (input('Įveskite pabaigą: ') )
+# step = int (input('Įveskite žingsnį: ') )
+#
+# koksSk= input('(Ar norite matyti lyginius skaičius? (taip/ne): ')
+# isEven = False
+# if koksSk.lower() == "taip":
+#     isEven =  True
+#
+# if start < end:
+#     for i in range(start, end + 1, step):
+#         if i % 2 == 0 and isEven:
+#             print(i)
+#         if i % 2 != 0 and not isEven:
+#             print(i)
+#
+# else: print('Netinkami rėžiai')
 
-# neveikia. KAžkas negerai su žingsnio įvedimu
+# galima su elif
 
 
 
