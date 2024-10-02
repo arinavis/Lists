@@ -264,5 +264,11 @@ ss3 = ss1 + ss2
 print(ss1, ss2)
 # nebaigta
 
-
+print('---------------------')
+# WHILE ciklas
+# 1 uzd
+skaicius = 1
+while skaicius < 20:
+    print(skaicius)
+    skaicius += 1
 
