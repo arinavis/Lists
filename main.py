@@ -263,12 +263,25 @@ ss2 = 2
 ss3 = ss1 + ss2
 print(ss1, ss2)
 # nebaigta
-
 print('---------------------')
+
 # WHILE ciklas
 # 1 uzd
 skaicius = 1
 while skaicius < 20:
     print(skaicius)
     skaicius += 1
+print('---------------------')
+
+# 2 uzd.
+sk = 1
+while sk <= 50:
+    if sk % 2 == 0:
+        print(f'{sk} - lyginis')
+    else:
+        print(f'{sk} - nelyginis')
+    sk += 1
+print('---------------------')
+
+# 3 uzd
 
