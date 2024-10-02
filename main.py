@@ -197,8 +197,8 @@ print('---------------------')
 #
 # for i in zodis:
 #     print(i * skaicius)
-
 print('---------------------')
+
 #  14 uzd.
 sk1 = 2
 sk2 = 3
@@ -207,7 +207,6 @@ for i in range(sk2):
     sandauga += sk1
 print(sandauga)
 #  neaišku
-
 print('---------------------')
 # 15 uzd
 
@@ -216,6 +215,7 @@ for i in range(1, 100):
     suma100 += i
 print(suma100)
 print('---------------------')
+
 # 16 uzd.
 lygSuma = 0
 for i in range(20, 50):
@@ -227,9 +227,42 @@ lygSuma1 = 0
 for i in range(20, 50, 2):
         lygSuma1 += i
 print(f'Lyginių suma: {lygSuma1}')
+print('---------------------')
 
+# 17 uzd
+nelygSuma = 0
+for i in range(30, 60):
+    if i % 2 != 0:
+        nelygSuma += i
+print(f'Nelyginių suma: {nelygSuma}')
+print('---------------------')
 
+# 18 uzd.
+sum = 0
+for i in range(1000):
+    if i < 1000 and i % 3 == 0 or i % 5 == 0:
+        sum += i
+print(f'Atsakymas: {sum}')
+print('---------------------')
 
+# 19 uzd.
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print('FizzBuzz')
+    elif i % 3 == 0:
+        print('Fizz')
+    elif i % 5 == 0:
+        print('Buzz')
+    else:
+        print(i)
+print('---------------------')
+
+# 20 uzd
+ss1 = 1
+ss2 = 2
+ss3 = ss1 + ss2
+print(ss1, ss2)
+# nebaigta
 
 
 
