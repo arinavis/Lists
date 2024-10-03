@@ -315,8 +315,8 @@ print('6 uzd. ---------------------')
 
 # while True:
 #     print('Įveskite rėžio pradžią ir pabaigą: ')
-#     start = int( input() )
-#     end = int( input() )
+#     start = 1 #int( input() )
+#     end = 5 #int( input() )
 #     if start < end:
 #         for i in range(start, end +1):
 #             kvadratas = f'{i} - {i * i}'
@@ -326,5 +326,25 @@ print('6 uzd. ---------------------')
 #                 print(f'{kvadratas} - nelyginis')
 #         break
 # print('tinkamas rėžis')
+print('7 uzd. ---------------------')
+
+# 7 uzd.
+num1 = 1
+while True:
+    print(num1)
+    if num1 / num1 and num1 > 20:
+        break
+    num1 += 1
+#  neaišku
+print('8 uzd. ---------------------')
+
+# 8 uzd.
+suma = 0
+while True:
+    skaicius = 1 # int( input('Įveskite norimą skaičių: ') )
+    if skaicius == 0:
+        break
+    suma += skaicius
+print(f'Įvestų skaičių suma: {suma}')
 
 
