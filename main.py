@@ -235,7 +235,7 @@ for i in range(30, 60):
     if i % 2 != 0:
         nelygSuma += i
 print(f'Nelyginių suma: {nelygSuma}')
-print('---------------------')
+print('18 uzd. ---------------------')
 
 # 18 uzd.
 sum = 0
@@ -284,4 +284,29 @@ while sk <= 50:
 print('---------------------')
 
 # 3 uzd
+sk2 = 25
+while sk2 <= 30:
+    if sk2 % 3 == 0:
+        print('dalinasi iš 3')
+    else:
+        print(sk2)
+    sk2 += 1
+print('4 uzd. ---------------------')
 
+# 4 uzd
+num = 1
+while num < 101:
+    print(num)
+    if num % 7 == 0:
+        break
+    num += 1
+print('5 uzd. ---------------------')
+
+# 5 uzd.
+
+randomNum = 1
+while randomNum > 0:
+    print(randomNum)
+    if randomNum % 3 == 0 and randomNum % 5 == 0:
+        break
+    randomNum += 1
