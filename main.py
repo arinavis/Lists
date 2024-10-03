@@ -303,10 +303,28 @@ while num < 101:
 print('5 uzd. ---------------------')
 
 # 5 uzd.
-
 randomNum = 1
 while randomNum > 0:
     print(randomNum)
     if randomNum % 3 == 0 and randomNum % 5 == 0:
         break
     randomNum += 1
+print('6 uzd. ---------------------')
+
+# 6 uzd
+
+# while True:
+#     print('Įveskite rėžio pradžią ir pabaigą: ')
+#     start = int( input() )
+#     end = int( input() )
+#     if start < end:
+#         for i in range(start, end +1):
+#             kvadratas = f'{i} - {i * i}'
+#             if i % 2 == 0:
+#                 print(f'{kvadratas} - lyginis')
+#             else:
+#                 print(f'{kvadratas} - nelyginis')
+#         break
+# print('tinkamas rėžis')
+
+
