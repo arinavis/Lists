@@ -350,13 +350,13 @@ print('9 uzd. ---------------------')
 
 # 9 uzd.
 while True:
-    nr1 = int( input('Enter number: '))
-    nr2 = int( input('Enter number: '))
+    nr1 = 4 # int( input('Enter number: '))
+    nr2 = 5 # int( input('Enter number: '))
     print(f'{nr1} + {nr2} = {nr1 + nr2}')
     print(f'{nr1} - {nr2} = {nr1 - nr2}')
     print(f'{nr1} * {nr2} = {nr1 * nr2}')
     print(f'{nr1} / {nr2} = {nr1 / nr2}')
-    stop = input('Continue? Write yes/no: ')
+    stop = 'no' # input('Continue? Write yes/no: ')
     if stop.lower() == 'no':
         break
 print('End')
