@@ -339,12 +339,24 @@ while True:
 print('8 uzd. ---------------------')
 
 # 8 uzd.
-suma = 0
+# suma = 0
+# while True:
+#     skaicius = int( input('Įveskite norimą skaičių: ') )
+#     if skaicius == 0:
+#         break
+#     suma += skaicius
+# print(f'Įvestų skaičių suma: {suma}')
+print('9 uzd. ---------------------')
+
+# 9 uzd.
 while True:
-    skaicius = 1 # int( input('Įveskite norimą skaičių: ') )
-    if skaicius == 0:
+    nr1 = int( input('Enter number: '))
+    nr2 = int( input('Enter number: '))
+    print(f'{nr1} + {nr2} = {nr1 + nr2}')
+    print(f'{nr1} - {nr2} = {nr1 - nr2}')
+    print(f'{nr1} * {nr2} = {nr1 * nr2}')
+    print(f'{nr1} / {nr2} = {nr1 / nr2}')
+    stop = input('Continue? Write yes/no: ')
+    if stop.lower() == 'no':
         break
-    suma += skaicius
-print(f'Įvestų skaičių suma: {suma}')
-
-
+print('End')
