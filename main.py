@@ -342,7 +342,7 @@ while True:
 #  neaišku
 print('8 uzd. ---------------------')
 
-# 8 uzd.
+# # 8 uzd.
 # suma = 0
 # while True:
 #     skaicius = int( input('Įveskite norimą skaičių: ') )
@@ -368,10 +368,73 @@ print('10 uzd. ---------------------')
 
 # 10 uzd.
 while True:
-    x = 5 #int(input('Enter number: '))
+    x = 5  # int(input('Enter number: '))
     for i in range(1, x + 1):
         print(f'{x} * {i} = {x * i}')
-    stop = 'no' #input('Continue? Write yes/no: ')
+    stop = 'no'  # input('Continue? Write yes/no: ')
     if stop.lower() == 'no':
         break
+print('End')
 print('11 uzd. ---------------------')
+
+# 11 uzd.
+# 0
+# while True:
+#     newNum = int( input('Enter number: '))
+#     if newNum == 0 or newNum == -1:
+#         break
+#     magicNum += newNum
+#     avgNum += 1
+# if avgNum > 0:
+#     print(f'Suma: {magicNum}')
+#     print(f'Vidurkis: {magicNum} / {avgNum} = {magicNum / avgNum}')
+# 2 variantas
+# magicNum = 0
+# avgNum = 0
+# while True:
+#     avgNum += 1
+#     newNum = int( input('Enter number: '))
+#     if newNum == 0 or newNum == -1:
+#         break
+#     magicNum += newNum
+# print(f'Suma: {magicNum}')
+# print(f'Vidurkis: {magicNum} / {avgNum} = {magicNum / avgNum}')
+print('12 uzd. ---------------------')
+# 12 uzd.
+# while True:
+#     gradeSum = 0
+#     gradeCount = 0
+#
+#     print('Enter grades. For finish, enter "0"')
+#
+#     while True:
+#         grade = int ( input('Enter grade: '))
+#         if grade == 0:
+#             break
+#         gradeSum += grade
+#         gradeCount += 1
+#     if gradeCount > 0:
+#         print(f'Grade avg: {round(gradeSum / gradeCount, 1)}')
+#
+#     choice = input('Continue? Write yes/no: ')
+#     if choice.lower() != 'yes':
+#         break
+# print('Process finished')
+# 2 variantas
+
+while True:
+    sum = 0
+    counter = 0
+    while True:
+        newNum = int(input('Enter number: '))
+        sum = sum + newNum
+        if newNum == 0 or newNum == -1:
+            if counter > 0:
+                print(sum / counter)
+            break
+        counter += 1
+    choice = input('Continue? Write yes/no: ')
+    if choice.lower() != 'yes':
+        break
+# print(f'Suma: {magicNum}')
+# print(f'Vidurkis: {magicNum} / {avgNum} = {magicNum / avgNum}')
