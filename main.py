@@ -67,7 +67,8 @@ list2 = ['labas', 'penki', 'vakaras', 'laikrodis']
 if len(list2) > 5:
     list2.clear()
     print(list2)
-else: print(list2)
+else:
+    print(list2)
 
 print()
 # OK
@@ -124,10 +125,11 @@ for i in range(1, 20):
         print(f'skaičius {i} dalinasi iš 4')
 print('---------------------')
 # 6 uzd.
-for i in range(1,15):
+for i in range(1, 15):
     if i % 2 == 0:
         print(f'{i} - lyginis')
-    else: print(f'{i} - nelyginis')
+    else:
+        print(f'{i} - nelyginis')
 print('---------------------')
 # 7 uzd.
 pradzia = 1
@@ -135,7 +137,8 @@ pabaiga = 5
 if pradzia < pabaiga:
     for i in range(pradzia, pabaiga + 1):
         print(i, i ** 2)
-else: print('Rėžiai netinkami')
+else:
+    print('Rėžiai netinkami')
 # dauginti i iš savęs, o ne kelti kvadratu
 print('---------------------')
 # 8 uzd.
@@ -144,7 +147,8 @@ if pradzia < pabaiga:
     for i in range(pradzia, pabaiga + 1):
         if i % 2 != 0 or i % 8 == 0:
             print(f'skaičius {i} nelyginis arba dalinasi iš 8')
-else: print('Rėžiai netinkami')
+else:
+    print('Rėžiai netinkami')
 print('---------------------')
 #  9 uzd.
 # vardas = input('Įveskite savo vardą: ')
@@ -225,7 +229,7 @@ print(f'Lyginių suma: {lygSuma}')
 
 lygSuma1 = 0
 for i in range(20, 50, 2):
-        lygSuma1 += i
+    lygSuma1 += i
 print(f'Lyginių suma: {lygSuma1}')
 print('---------------------')
 
@@ -346,17 +350,28 @@ print('8 uzd. ---------------------')
 #         break
 #     suma += skaicius
 # print(f'Įvestų skaičių suma: {suma}')
-print('9 uzd. ---------------------')
+# print('9 uzd. ---------------------')
 
 # 9 uzd.
 while True:
-    nr1 = 4 # int( input('Enter number: '))
-    nr2 = 5 # int( input('Enter number: '))
+    nr1 = 4  # int( input('Enter number: '))
+    nr2 = 5  # int( input('Enter number: '))
     print(f'{nr1} + {nr2} = {nr1 + nr2}')
     print(f'{nr1} - {nr2} = {nr1 - nr2}')
     print(f'{nr1} * {nr2} = {nr1 * nr2}')
     print(f'{nr1} / {nr2} = {nr1 / nr2}')
-    stop = 'no' # input('Continue? Write yes/no: ')
+    stop = 'no'  # input('Continue? Write yes/no: ')
     if stop.lower() == 'no':
         break
 print('End')
+print('10 uzd. ---------------------')
+
+# 10 uzd.
+while True:
+    x = 5 #int(input('Enter number: '))
+    for i in range(1, x + 1):
+        print(f'{x} * {i} = {x * i}')
+    stop = 'no' #input('Continue? Write yes/no: ')
+    if stop.lower() == 'no':
+        break
+print('11 uzd. ---------------------')
